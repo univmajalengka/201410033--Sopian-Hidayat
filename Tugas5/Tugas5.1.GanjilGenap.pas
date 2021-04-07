@@ -8,9 +8,9 @@ uses crt;
 var
 a : integer;
 
-function bil(g : integer):integer;
+function bil(a : integer):integer;
 begin
-if g mod 2 = 0 then
+if a mod 2 = 0 then
 writeln('Bilangan ini adalah bilangan ganjil')
 else
 writeln('Bilangan ini adalah bilangan genap');
@@ -21,7 +21,7 @@ clrscr;
 writeln('Menentukan Bilangan Ganjil dan Genap');
 writeln('====================================');
 write('Masukan angka : ');readln(a);
-bil(g);
+bil(a);
 
 readln;
 end.
